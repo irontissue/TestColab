@@ -18,3 +18,6 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
+
+Here is an online notebook version of this code:
+https://colab.research.google.com/drive/1EVzMxWnEhgfL7ijvJND8nq3CX5_1_iC_?usp=drive_link
