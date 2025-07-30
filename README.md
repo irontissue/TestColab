@@ -3,6 +3,18 @@
 To start working locally on this notebook, setup a Python virtual environment and install the required packages:
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+source venv/bin/activate
+pip install -r requirements.txt
+```
+If you're on Windows and using Command Prompt, use the following commands instead:
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
+If you're on Windows and using PowerShell, use the following commands instead:
+```bash
+python -m venv venv
+.\venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
